@@ -1,0 +1,18 @@
+# venv
+.venv/
+
+# secrets
+src/.env
+.env
+
+# inputs/outputs (local working data)
+input/
+output/
+
+# temp / lock files
+~$*.xlsx
+*.tmp
+
+# python caches
+__pycache__/
+*.pyc
